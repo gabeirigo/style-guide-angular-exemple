@@ -34,7 +34,7 @@ Cada funcionalidade possui uma estrutura básica:
  - Contém uma pasta shared onde ficará os components, services, interfaces e outras arquivos que serão compartilhados entre os componentes da funcionalidade;
 
 
-![estrutura da pasta core](./Screenshot%202023-02-22%20004217.png)
+![estrutura da pasta core](./Screenshot%202023-02-22%20004218.png)
 
 &nbsp;
 
