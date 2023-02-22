@@ -63,7 +63,7 @@ Veja um exemplo de um software de estratégias de Fórmula 1:
 
 Apesar de "t" não nos revelar nada, temos um comentário do lado que nos ajuda a entender o que se refere essa variável. 
 
-Mas ao desenvolver o projeto, sempre que for utilizar essa explicação do lado? Claro que não. Por isso, devemos colocar essa explicação no portador da informação, no nome. Veja alguns exemplos:
+Mas ao desenvolver o projeto, sempre que for utilizar essa variável, vai carregar a explicação do lado? Claro que não. Por isso, devemos colocar essa explicação no portador da informação, no nome. Veja alguns exemplos:
 
 ```typescript
     let tempoDeVoltaEmSegundos;
