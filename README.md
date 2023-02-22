@@ -1,4 +1,4 @@
-# **Conheça a estrutura geral do projeto {SIGLA}**
+# **Conheça a estrutura geral do projeto { PROJETO }**
 
 ## **Estrutura de pastas**
 
