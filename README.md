@@ -1,27 +1,45 @@
-# StyleGuide
+# **Conheça a estrutura geral do projeto {SIGLA}**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
+## **Estrutura de pastas**
 
-## Development server
+Para facilitar sempre a manutenção e as futuras implementações de um projeto, é necessário que ele seja bem estruturado.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Esse é um exemplo de estrutura utilizando Angular baseado em três grande módulos: **core**, **features** e **shared**.
 
-## Code scaffolding
+![estrutura de pastas](./Screenshot%202023-02-21%20234012.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+&nbsp;
 
-## Build
+### **Core**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+É o núcleo do projeto. Nela fica todo o conteúdo essencial para o funcionamento da aplicação.
 
-## Running unit tests
+![estrutura da pasta core](./Screenshot%202023-02-22%20002648.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+&nbsp;
 
-## Running end-to-end tests
+### **Features**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Contém todos os módulos da aplicação segmentados por funcionalidades. 
 
-## Further help
+![estrutura da pasta core](./Screenshot%202023-02-22%20002930.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Cada funcionalidade possui uma estrutura básica:
+
+ - Contém um arquivo de roteamento para possiblitar a implementação de lazy load;
+ 
+ - Contém seus prórpios components;
+ 
+ - Contém uma pasta shared onde ficará os components, services, interfaces e outras arquivos que serão compartilhados entre os componentes da funcionalidade;
+
+
+![estrutura da pasta core](./Screenshot%202023-02-22%20004217.png)
+
+&nbsp;
+
+### **Shared**
+
+Este é o módulo onde fica tudo que é compartilhado e reutilizado por toda a aplicação.
+
+![estrutura da pasta core](./Screenshot%202023-02-22%20005230.png)
