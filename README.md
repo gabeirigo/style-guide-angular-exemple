@@ -1,4 +1,4 @@
-# **Conheça a estrutura geral do projeto { PROJETO }**
+# **Conheça a estrutura geral do projeto {SIGLA}**
 
 ## **Estrutura de pastas**
 
@@ -34,7 +34,7 @@ Cada funcionalidade possui uma estrutura básica:
  - Contém uma pasta shared onde ficará os components, services, interfaces e outras arquivos que serão compartilhados entre os componentes da funcionalidade;
 
 
-![estrutura da pasta core](./Screenshot%202023-02-22%20004218.png)
+![estrutura da pasta core](./Screenshot%202023-02-22%20004217.png)
 
 &nbsp;
 
@@ -43,3 +43,17 @@ Cada funcionalidade possui uma estrutura básica:
 Este é o módulo onde fica tudo que é compartilhado e reutilizado por toda a aplicação.
 
 ![estrutura da pasta core](./Screenshot%202023-02-22%20005230.png)
+
+&nbsp;
+
+&nbsp;
+
+# **Boas Práticas**
+
+## **Clean Code**
+
+### **Escrevendo bons nomes**
+Texto aqui
+
+### **Estruturando suas funções**
+Texto aqui
